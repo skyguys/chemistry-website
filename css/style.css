@@ -36,3 +36,28 @@
 .nav:hover{
 	left:0%;
 }
+
+
+#blue{
+	background-color:rgb(55, 94, 200);
+	height:150px;
+	width:100%;
+}
+
+#bluegradient{
+	height:150px;
+	width:100%;
+	background-image: linear-gradient(2deg, white 50%, #375ec8 51%);
+}
+
+#bluegradient h1{
+	color:white;
+	font-family:arial;
+	float:right;
+	padding-right:10%;
+	padding-bottom:50%;
+	font-size:5vw;
+	transform:rotate(2deg)
+}
+
+
