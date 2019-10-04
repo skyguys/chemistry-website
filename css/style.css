@@ -1,5 +1,38 @@
-p{
-  font-family:arial;
-  font-size:50px;
-  font-weight:bold;
+*{
+	margin:0;
+	padding:0;
+}
+
+.nav{
+	position:absolute;
+	width:25%;
+	height:100%;
+	left:-15%;
+	transition-duration:1s;
+	transition-property:left;
+}
+
+.link{
+	background-color:black;
+	width:60%;
+	height:100%;
+}
+.link li{
+	color:white;
+	font-family:arial;
+	padding-left:5%;
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:2vw;
+}
+.arrow img{
+	width:40%;
+	transform:rotate(-90deg);
+	position:absolute;
+	left:60%;
+	top:0%;
+}
+
+.nav:hover{
+	left:0%;
 }
