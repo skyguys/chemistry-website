@@ -3,33 +3,66 @@
 	padding:0;
 }
 
+body{
+	background-color:#ebebeb;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+a:visited{
+	color:white;
+}
+
+.clear{
+	clear:both;
+}
+
+.link a:hover{
+	padding-right:10%;
+}
+
 .nav{
 	position:absolute;
-	width:25%;
+	position:fixed;
+	width:40%;
 	height:100%;
-	left:-15%;
+	left:-30%;
 	transition-duration:1s;
 	transition-property:left;
+	z-index:1;
 }
 
 .link{
 	background-color:black;
-	width:60%;
+	width:75%;
 	height:100%;
 }
 .link li{
+	text-align:right;
 	color:white;
 	font-family:arial;
-	padding-left:5%;
+	padding-right:5%;
 	padding-top:5%;
 	padding-bottom:5%;
 	font-size:2vw;
 }
+
+.link li:nth-child(1){
+	padding-top:40%;
+}
+
+.link a{
+	transition-property:padding-right;
+	transition-duration:0.5s;
+}
 .arrow img{
-	width:40%;
+	width:20%;
 	transform:rotate(-90deg);
 	position:absolute;
-	left:60%;
+	left:75%;
 	top:0%;
 }
 
@@ -37,9 +70,8 @@
 	left:0%;
 }
 
-
 #blue{
-	background-color:rgb(55, 94, 200);
+	background-color:#375ec8;
 	height:150px;
 	width:100%;
 }
@@ -47,17 +79,46 @@
 #bluegradient{
 	height:150px;
 	width:100%;
-	background-image: linear-gradient(2deg, white 50%, #375ec8 51%);
+	background-image: linear-gradient(2deg, #ebebeb 50%, #375ec8 51%);
 }
 
 #bluegradient h1{
 	color:white;
 	font-family:arial;
 	float:right;
-	padding-right:10%;
-	padding-bottom:50%;
-	font-size:5vw;
+	padding-right:5%;
+	font-size:75px;
 	transform:rotate(2deg)
 }
 
+.content{
+	margin:0 10%;
+	font-size:1.5vw;
+}
 
+#text1{
+	float:right;
+	width:60%;
+}
+
+#image1{
+	float:left;
+	width:35%;
+	height:200px;
+	background-color:gray;
+	border-radius:15px;
+}
+
+#text2{
+	float:left;
+	width:40%;
+	padding-top:2.5%;
+}
+
+#image2{
+	float:right;
+	width:55%;
+	height:350px;
+	background-color:gray;
+	border-radius:15px;
+}
