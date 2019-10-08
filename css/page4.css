@@ -59,11 +59,11 @@ a:visited{
 	transition-duration:0.5s;
 }
 .arrow img{
-	width:20%;
+	width:10%;
 	transform:rotate(-90deg);
 	position:absolute;
-	left:75%;
-	top:0%;
+	left:77%;
+	top:5%;
 }
 
 .nav:hover{
@@ -122,4 +122,3 @@ a:visited{
 	background-color:gray;
 	border-radius:15px;
 }
-
