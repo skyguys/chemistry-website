@@ -83,7 +83,10 @@ a:visited{
 	display:inline;
 	padding-right:2%;
 	font-family:arial;
+}
 
+.musicnav a:hover{
+	color:#db8016;
 }
 
 #orange{
