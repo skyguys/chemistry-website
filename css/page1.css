@@ -1,128 +1,152 @@
-* {
-	overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+*{
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
 }
 
-body {
-  background-color: #ebebeb;
+body{
+	background-color:#ebebeb;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+a{
+	color:white;
+	text-decoration:none;
 }
 
-a:visited {
-  color: white;
+a:visited{
+	color:white;
 }
 
-.clear {
-  clear: both;
+.clear{
+	clear:both;
 }
 
-.link a:hover {
-  font-size: 2.25vw;
+.link a:hover{
+	font-size:2.25vw;
 }
 
-.nav {
-  position: absolute;
-  position: fixed;
-  width: 40%;
-  height: 100%;
-  left: -30%;
-  transition-duration: 1s;
-  transition-property: left;
-  z-index: 1;
+.nav{
+	position:absolute;
+	position:fixed;
+	width:40%;
+	height:100%;
+	left:-30%;
+	transition-duration:1s;
+	transition-property:left;
+	z-index:1;
 }
 
-.link {
-  background-color: black;
-  width: 75%;
-  height: 100%;
+.link{
+	background-color:black;
+	width:75%;
+	height:100%;
+}
+.link li{
+	text-align:right;
+	color:white;
+	font-family:arial;
+	padding-right:5%;
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:2vw;
 }
 
-.link li {
-  text-align: right;
-  color: white;
-  font-famimly: arial;
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  font-size: 2vw;
+.link li:nth-child(1){
+	padding-top:40%;
 }
 
-.link li:nth-child(1) {
-  padding-top: 40%;
+.link a{
+	transition-property:font-size;
+	transition-duration:0.5s;
+}
+.arrow img{
+	width:10%;
+	transform:rotate(-90deg);
+	position:absolute;
+	left:77%;
+	top:5%;
 }
 
-.link a {
-  transition-property: font-size;
-  transition-duration: 0.5s;
+.nav:hover{
+	left:0%;
 }
 
-.arrow img {
-  width: 10%;
-  transform: rotate(-90deg);
-  position: absolute;
-  left: 77%;
-  top: 5%;
+#green{
+	background-color:#418017;
+	height:150px;
+	width:100%;
 }
 
-.nav:hover {
-  left: 0%;
+#greengradient{
+	height:150px;
+	width:100%;
+	background-image: linear-gradient(2deg, #ebebeb 50%, #418017 51%);
 }
 
-#green {
-  background-color: #418017;
-  height: 150px;
-  width: 100%;
+#greengradient h1{
+	color:white;
+	font-family:arial;
+	float:right;
+	padding-right:5%;
+	font-size:75px;
+	transform:rotate(2deg)
 }
 
-#greengradient {
-  height: 150px;
-  width: 100%;
-  background-image: linear-gradient(2deg, #ebebeb 50%, #418017 51%);
+.content{
+	margin:0 10%;
+	font-size:1.5vw;
 }
 
-#greengradient h1 {
-  color: white;
-  font-family: arial;
-  float: right;
-  padding-right: 5%;
-  font-size: 75px;
-  transform: rotate(2deg)
+#text1{
+	float:right;
+	width:60%;
+	color:black;
 }
 
-.content {
-  margin: 0 10%;
-  font-size: 1.5vw;
+#image1{
+	float:left;
+	width:35%;
+	border-radius:15px;
 }
 
-#text1 {
-  font-family: 'Lora', serif;
-  float: right;
-  width: 60%;
+#image1 img{
+	width:100%;
+	border-radius:15px;
+	border:5px #418017 solid;
+	box-shadow:20px 20px 0px #5a9434;
 }
 
-#image1 {
-  float: left;
-  width: 35%;
-  height: 200px;
-  background-color: gray;
-  border-radius: 15px;
+#text2{
+	float:left;
+	width:40%;
+	padding-top:2.5%;
 }
 
-#text2 {
-  float: left;
-  width: 40%;
-  padding-top: 2.5%;
+#image2{
+	float:right;
+	width:55%;
+	border-radius:15px;
 }
 
-#image2 {
-  float: right;
-  width: 55%;
-  height: 350px;
-  background-color: gray;
-  border-radius: 15px;
+#image2 img{
+	width:100%;
+	border-radius:15px;
+	border:5px #418017 solid;
+	box-shadow:20px 20px 0px #5a9434;
+}
+
+
+footer{
+	text-transform: uppercase;
+	background-color:black;
+	height:80px;
+	width:100%;
+	color:white;
+	font-family:monospace;
+	text-align:center;
+	font-size:1vw;
+}
+
+footer,p{
+	padding-top:1%;
 }
